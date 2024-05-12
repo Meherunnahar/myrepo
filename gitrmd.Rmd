@@ -1,8 +1,8 @@
 ---
 title: "firstrmdwgit"
 author: "meherun"
-date: "`r Sys.Date()`"
-output: html_document
+date: "2024-05-12"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -22,7 +22,7 @@ summary(cars)
 ## Including Plots
 
 You can also embed plots, for example:
-hi
+hi hello
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
