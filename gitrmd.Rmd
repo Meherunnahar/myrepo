@@ -4,6 +4,11 @@ author: "meherun"
 date: "2024-05-12"
 output: github_document
 ---
+```{r}
+knitr::knit_exit()
+```
+
+ 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -31,7 +36,12 @@ hello
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 ```{r, eval=TRUE}
-## insert your brilliant WORKING code here
+getwd()
+```
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE)
 ```
 
-
+```{r wing-and-a-prayer, error = TRUE}
+## your sketchy code goes here ;)
+```
